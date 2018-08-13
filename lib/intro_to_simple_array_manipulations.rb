@@ -23,7 +23,7 @@ end
 
 def shift_with_args(arr)
   newArr = []
-  newArr.unshift(using_shift(arr))
+  newArr << (using_shift(arr))
   newArr.unshift(using_shift(arr))
   newArr
 end 
