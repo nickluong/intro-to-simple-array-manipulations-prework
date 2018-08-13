@@ -28,3 +28,6 @@ def shift_with_args(arr)
   newArr
 end 
 
+def using_concat(arr1, arr2)
+    
+
