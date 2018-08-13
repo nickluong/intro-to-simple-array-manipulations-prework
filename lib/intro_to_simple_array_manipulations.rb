@@ -13,7 +13,7 @@ end
 def pop_with_args(arr)
   newArr = []
   newArr << arr.pop
-  newArr << arr.pop
+  newArr.unshift(arr.pop)
   newArr
 end 
 
