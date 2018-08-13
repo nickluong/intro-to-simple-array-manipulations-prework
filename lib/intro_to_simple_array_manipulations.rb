@@ -11,8 +11,10 @@ def using_pop(arr)
 end 
 
 def pop_with_args(arr)
-  arr.pop
-  arr.pop 
+  newArr = []
+  newArr << arr.pop
+  newArr << arr.pop
+  newArr
 end 
 
 def using_shift(arr)
